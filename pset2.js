@@ -4,7 +4,19 @@
     @returns {array}
     @desc - takes all engative numbers and makes positive
     @example - removeNegatives([-3,-2,1,2,3,-4]); // [3,2,1,2,3,4]
-*/
+// */
+// const removeNegatives = (arr) => {
+//     const copyArr = [...arr];
+//     for (let i =0; i < copyArr.length; i++){
+//         if (copyArr[i]<0){
+//             copyArr[i] *= -1
+
+//         }
+
+// }
+// return copyArr
+//     }
+//     console.log(removeNegatives([-1,-2,-3,-4]))
 
 /*
     @func findVal
@@ -32,6 +44,19 @@
         removeOdds([1,"2",3,4]); // [4]
 */
 
+// const removeOdds = (arr) =>{ 
+//     let copyArr = [];
+
+// for (let i = 0; i < arr.length; i++ ){
+//     if ( arr [i] % 2 === 0 && typeof(arr[i]) === 'number'){
+//     copyArr.push(arr[i]);
+//  }
+//     }
+//     return copyArr
+// }
+// console.log(removeOdds([1,"2",3,4]))
+// console.log(removeOdds([1,2,3,4]))
+    
 /*
     @func addSquares
     @param {array} arr
@@ -40,7 +65,18 @@
     @example - 
         addSquares([1,2,3,4); // [1,2,3,4,1,4,9,16]
 */
+const addSquares = (arr) => {
+    const copyArr = [... arr]
+    const empty = [];
+}
+for (let v = 0; v < arr.length; i++){
+    empty[v] = copyArr[v] ** 2 
+    return copyArr[v]
+    }
 
+    
+}
+console.log(addSquares([1,2,3,4]))
 /*
     @func doubleify
     @param {array} arr
